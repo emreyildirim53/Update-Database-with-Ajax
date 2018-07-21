@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+<head>
+  <meta charset="utf-8">
+  <title>Ajax Update</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/script.js"></script>
+
+</head>
+<body>
+  <!--Oturum hakkında bilgilerin saklandığı element-->
+  <div class="infoLoginStatement"></div>
+    <!--Post metoduyla kullanıcıdan alınan bilgiler işlenmek üzere login sayfasına yönlendirilmiştir.-->
+    <form action="login.php" method="post">
+      <span>Bilgi Formu	</span>
+      <div>
+        <input type="text" name="username" id="username" placeholder="Kullanıcı adınız.">
+      </div>
+      <div>
+        <input type="text" name="password" id="password" placeholder="Şifrenizi giriniz.">
+      </div>
+      <div>
+        <button type="submit">
+					<span>Gönder</span>
+				</button>
+      </div>
+    </form>
+</body>
+</html>
